@@ -10,14 +10,7 @@
 	<meta name="author" content="freehtml5.co" />
 
 
-    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js'></script>
-    <script type='text/javascript'>
-        (function () {
-            emailjs.init('user_ID');
-        })();
-    </script>
-
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	
 	<!-- Animate.css -->
@@ -36,13 +29,7 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-<script>
-    document.addEventListener('click','.sidebar a',function(e){
-    e.preventDefault();
-    location.href = this.href;
-  });
 
-</script>
 	</head>
 	<body>
 		
@@ -334,7 +321,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/geely.jpg);">
+					<a href="#geely" class="work" style="background-image: url(images/geely.jpg);">
 						<div class="desc">
 							<h3>Website for "Geely" Netanya cars company</h3>
 							
@@ -342,7 +329,7 @@
 					</a>
 				</div>
 				<div class="col-md-6 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/BI-1.jpg);">
+					<a href="#biSys" class="work" style="background-image: url(images/BI-1.jpg);">
 						<div class="desc">
 							<h3>BI system</h3>
 							
@@ -367,7 +354,7 @@
 						<a href="#" class="blog-bg" style="background-image: url(images/geely.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">2023</span>
-							<h3>Geely Netanya</h3>
+							<h3 id ="geely">Geely Netanya</h3>
 							<p>Created and developed a comprehensive website for an authorized Geely Netanya garage, showcasing a range of services offered at the facility.<br>Implemented essential features such as a user-friendly contact page, a
                                 visually appealing photo gallery, and additional functionalities to enhance user experience.</p>
 						
@@ -379,7 +366,7 @@
 						<a href="#" class="blog-bg" style="background-image: url(images/BI-1.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">2022-2023</span>
-							<h3>BI System</h3>
+							<h3 id="biSys">BI System</h3>
 							<p>Designed a Business Intelligence (BI) system for a casino network, aligning with the organizational goal ofobtaining a cohesive view of network profits and revenues.<br>The system enables casino owners to analyze revenue patterns acrosscountries/branches, game categories, and popularity, facilitating strategic insights into customer preferences, targeted marketing
                                 efforts, and revenue optimization</p>
 							
